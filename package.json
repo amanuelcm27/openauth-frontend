@@ -1,0 +1,11 @@
+{
+  "name": "openauth",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "typescript": "^5.9.3",
+    "tsup": "^8.5.1"
+  }
+}

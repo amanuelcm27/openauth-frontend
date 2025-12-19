@@ -1,0 +1,7 @@
+{
+  "name": "@openauth/cli",
+  "version": "0.1.0",
+  "bin": {
+    "openauth": "dist/index.js"
+  }
+}
