@@ -1,7 +1,15 @@
 {
   "name": "@openauth/cli",
   "version": "0.1.0",
+  "type": "module",
   "bin": {
     "openauth": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsup src/index.ts --format esm --out-dir dist",
+    "dev": "node src/index.ts"
+  },
+  "dependencies": {
+    "node-fetch": "^3.3.2"
   }
 }
