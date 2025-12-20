@@ -1,4 +1,3 @@
-// totp.ts
 import { apiFetch } from "../client";
 
 export function setupTOTP(
