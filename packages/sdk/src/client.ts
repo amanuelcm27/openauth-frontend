@@ -1,10 +1,6 @@
 import { DEFAULT_API_BASE } from "./config";
 
-export async function apiFetch(
-  path: string
-  //   body: any,
-  //   appSecret: string
-) {
+export async function apiFetch(path: string, body: any, appSecret: string) {
   if (!appSecret) {
     throw new Error("appSecret is required");
   }
@@ -15,7 +11,7 @@ export async function apiFetch(
       "Content-Type": "application/json",
       "X-APP-SECRET": appSecret,
     },
-    // body: body ? JSON.stringify(body) : undefined,
+    body: body ? JSON.stringify(body) : undefined,
   });
 
   const data = await res.json();
