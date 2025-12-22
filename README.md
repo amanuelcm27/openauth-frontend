@@ -42,13 +42,6 @@ OpenAuth is designed with **clear separation of concerns**:
 
 ---
 
-Great, you already have a solid start. Below is a **clean, developer-friendly continuation** of your `README.md`, focused **only on the CLI part** for now, written as if this is a real OSS MFA product developers will onboard with.
-
-I’ll **not invent SDK/UI details** yet, just clearly scope them as “coming next”.
-
----
-
-``
 ## CLI Features
 
 The **OpenAuth CLI** is the first step for developers integrating OpenAuth MFA.  
