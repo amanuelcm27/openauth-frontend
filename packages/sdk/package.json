@@ -1,6 +1,7 @@
 {
-  "name": "@openauth/sdk",
+  "name": "@openauthdev/sdk",
   "version": "0.1.0",
+  "files": ["dist"],
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "type": "module",

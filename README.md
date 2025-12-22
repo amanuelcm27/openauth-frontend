@@ -34,9 +34,10 @@ It enables seamless integration of **Multi-Factor Authentication (MFA)** using:
 
 
 ```
-npm install -g @openauth/cli
-npm install @openauth/sdk
-npm install @openauth/ui
+npm install @openauthdev/sdk
+npm install @openauthdev/ui
+npm install -g @openauthdev/cli # if you want the command openauth to be global
+
 ```
 ---
 

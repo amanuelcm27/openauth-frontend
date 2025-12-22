@@ -1,4 +1,4 @@
-// packages/cli/src/index.ts
+#!/usr/bin/env node
 
 import { registerDeveloper } from "./commands/register";
 import { createApp } from "./commands/createApp";

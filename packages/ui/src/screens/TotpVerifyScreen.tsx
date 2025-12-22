@@ -8,7 +8,7 @@ import {
     NativeSyntheticEvent,
     TextInputKeyPressEventData,
 } from "react-native";
-import { OpenAuth } from "@openauth/sdk";
+import { OpenAuth } from "@openauthdev/sdk";
 import { styles } from "../styles";
 import { SafeAreaView } from "react-native-safe-area-context";
 

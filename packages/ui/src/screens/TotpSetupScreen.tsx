@@ -7,7 +7,7 @@ import {
   Alert,
 } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
-import { OpenAuth } from "@openauth/sdk";
+import { OpenAuth } from "@openauthdev/sdk";
 import { styles } from "../styles";
 
 type Props = {

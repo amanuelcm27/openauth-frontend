@@ -1,6 +1,6 @@
 // packages/cli/src/api.ts
 
-const API_BASE = "http://localhost:8000";
+const API_BASE = "https://openauth.pythonanywhere.com";
 
 export async function post(path: string, body: any) {
   const res = await fetch(`${API_BASE}${path}`, {

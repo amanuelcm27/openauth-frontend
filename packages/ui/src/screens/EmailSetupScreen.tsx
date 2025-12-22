@@ -9,7 +9,7 @@ import {
   Platform,
 } from "react-native";
 
-import { OpenAuth } from "@openauth/sdk";
+import { OpenAuth } from "@openauthdev/sdk";
 import { styles } from "../styles";
 
 type Props = {
