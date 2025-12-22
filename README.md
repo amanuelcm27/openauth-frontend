@@ -538,6 +538,12 @@ Example:
 ```
 
 ---
+## Option UI Screens for React Native
+
+| ![MFA selection screen](screen_assets/selection.jpg) | ![TOTP setup Screen](screen_assets/totp_setup.jpg) | ![TOTP Verify Screen](screen_assets/totp_verify.jpg) |
+| --- | --- | --- |
+| ![Email Setup Screen](screen_assets/email_setup.jpg) | ![Email Verify Screen](screen_assets/email_verify.jpg) | ![Verified Screen](screen_assets/verified.jpg) |
+---
 
 ## Recommended MFA Flow (Using UI Kit)
 
