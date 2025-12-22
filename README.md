@@ -30,6 +30,15 @@ It enables seamless integration of **Multi-Factor Authentication (MFA)** using:
 - [License](#license)
 
 ---
+## Quick setup
+
+
+```
+npm install -g @openauth/cli
+npm install @openauth/sdk
+npm install @openauth/ui
+```
+---
 
 ## Architecture Overview
 
