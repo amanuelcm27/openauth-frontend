@@ -22,13 +22,14 @@ It enables seamless integration of **Multi-Factor Authentication (MFA)** using:
 - [Architecture Overview](#architecture-overview)
 - [CLI Features](#cli-features)
   - [Installation](#cli-installation)
-  - [Developer Registration](#cli-authentication)
-  - [Creating an Application](#cli-app-creation)
+  - [Developer Registration](#developer-registration)
+  - [Creating an Application](#creating-an-application)
 - [SDK Usage](#sdk-usage)
-  - [TOTP Functions](#totp-functions)
-  - [Email OTP Functions](#email-otp-functions)
+  - [TOTP (Authenticator App) Flow](#TOTP-Flow)
+  - [Email OTP Flow](#Email-OTP-Flow)
+  - [MFA Status Check](#MFA-Status-Check)
 - [UI Components (Optional)](#ui-components-optional)
-- [Security Notes](#security-notes)
+- [Available Screens](#Available-Screens)
 - [License](#license)
 
 ---
@@ -78,7 +79,7 @@ The OpenAuth CLI is distributed via npm.
 #### Install globally
 
 ```bash
-npm install -g @openauth/cli
+npm install -g @openauthdev/cli
 ```
 
 After installation, the `openauth` command will be available globally:
@@ -236,13 +237,13 @@ The SDK communicates securely with the OpenAuth backend using your **App Secret 
 Install the SDK via npm:
 
 ```bash
-npm install @openauth/sdk
+npm install @openauthdev/sdk
 ```
 
 or with yarn:
 
 ```bash
-yarn add @openauth/sdk
+yarn add @openauthdev/sdk
 ```
 
 ---
@@ -252,7 +253,7 @@ yarn add @openauth/sdk
 Import the SDK:
 
 ```ts
-import { OpenAuth } from "@openauth/sdk";
+import { OpenAuth } from "@openauthdev/sdk";
 ```
 
 Each SDK function requires:
@@ -280,9 +281,9 @@ This can be:
 
 ---
 
-## TOTP (Authenticator App) Flow
+## TOTP Flow
 
-TOTP allows users to authenticate using apps like:
+TOTP (Autheticator App ) allows users to authenticate using apps like:
 
 * Google Authenticator
 * Microsoft Authenticator
@@ -492,13 +493,13 @@ These components:
 ### UI Package Installation
 
 ```bash
-npm install @openauth/ui
+npm install @openauthdev/ui
 ```
 
 or
 
 ```bash
-yarn add @openauth/ui
+yarn add @openauthdev/ui
 ```
 
 ---
@@ -515,7 +516,7 @@ import {
   EmailSetupScreen,
   EmailVerifyScreen,
   VerifiedScreen,
-} from "@openauth/ui";
+} from "@openauthdev/ui";
 ```
 
 | Screen                     | Purpose                                         |
@@ -669,7 +670,7 @@ You may want to skip the UI kit if:
 * You already have OTP input components
 * You’re integrating MFA into a backend-only flow
 
-In those cases, use **@openauth/sdk directly**.
+In those cases, use **@openauthdev/sdk directly**.
 
 ---
 
@@ -681,4 +682,10 @@ SDK → MFA Logic
 UI → Optional UX Layer
 ```
 ---
+
+
+
+## License
+
+This project is licensed under the [MIT License](LICENSE.md) - see the LICENSE.md file for details.
 
