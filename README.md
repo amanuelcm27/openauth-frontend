@@ -1,6 +1,8 @@
 # OpenAuth Frontend
 
-[![npm version](https://img.shields.io/npm/v/@openauth/ui)](https://www.npmjs.com/package/@openauth/ui)
+[![npm version](https://img.shields.io/npm/v/@openauthdev/sdk)](https://www.npmjs.com/package/@openauthdev/sdk)
+[![npm version](https://img.shields.io/npm/v/@openauthdev/cli)](https://www.npmjs.com/package/@openauthdev/cli)
+[![npm version](https://img.shields.io/npm/v/@openauthdev/ui)](https://www.npmjs.com/package/@openauthdev/ui)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE.md)
 
 OpenAuth is a **developer-first authentication toolkit** that provides:
