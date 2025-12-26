@@ -5,7 +5,10 @@
 [![npm version](https://img.shields.io/npm/v/@openauthdev/ui)](https://www.npmjs.com/package/@openauthdev/ui)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE.md)
 
-![Logo ](screen_assets/logo.jpg) 
+<div align="center">
+  <img src="screen_assets/logo.jpg" alt="OpenAuth Logo" width="150" height="150" style="border-radius: 50%;">
+</div>
+
 OpenAuth is a **developer-first authentication toolkit** that provides:
 
 -  **CLI tools** for managing authentication projects and applications  
